@@ -37,3 +37,25 @@
     href: authorization/authorizationmiddlewareresulthandler.md
   - name: Limit authorization by authentication scheme
     href: authorization/limitingidentitybyscheme.md
+- name: ASP.NET Core Identity
+  items:
+  - name: Overview
+    href: identity/identity.md
+  - name: Scaffold Identity
+    href: identity/scaffold-identity.md
+  - name: Identity with SPA
+    href: identity/identity-api-authorization.md
+  - name: Add custom user data to Identity
+    href: identity/add-user-data.md
+  - name: Customize Identity
+    href: identity/customize-identity-model.md
+  - name: Configure Identity
+    href: identity/identity-configuration.md
+  - name: Custom storage providers for Identity
+    href: identity/identity-custom-storage-providers.md
+  - name: Account confirmation and password recovery
+    href : identity/accconfirm.md
+  - name: Enable QR code generation in Identity
+    href: identity/identity-enable-qrcodes.md
+  - name: Two-factor authentication with SMS
+    href: identity/2fa.md
