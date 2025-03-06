@@ -15,7 +15,6 @@
   - name: Policy schemes
     href: authentication/policyschemes.md
   - name: Manage JWTs in development
-    displayName: jwt, JSON WEB Token
     href: authentication/jwt.md
   - name: Map, customize, and transform claims
     href: authentication/claims.md
@@ -33,7 +32,7 @@
     href: authorization/roles.md
   - name: Parameterize authorization requirements
     href: authorization/iard.md
-  - name: Customize the behavior of AuthorizationMiddleware
+  - name: Customize the behavior of authorization failure
     href: authorization/authorizationmiddlewareresulthandler.md
   - name: Limit authorization by authentication scheme
     href: authorization/limitingidentitybyscheme.md
@@ -62,7 +61,6 @@
 - name: Advanced
   items:
   - name: Data protection
-    displayName: encryption
     items:
       - name: Overview
         href: advanced/data-protection/introduction.md
@@ -135,13 +133,10 @@
   - name: Secrets management
     items:
       - name: Protect secrets in development
-        displayName: password, connection string, API key
         href: advanced/app-secrets.md
       - name: Manage JWTs in development
-        displayName: jwt, JSON WEB Token
         href: advanced/authentication/jwt.md
       - name: Azure Key Vault Configuration Provider
-        displayName: password, connection string, API key, secrets
         href: advanced/key-vault-configuration.md
   - name: Enforce HTTPS
     href: advanced/enforcing-ssl.md
