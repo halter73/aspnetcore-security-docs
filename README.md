@@ -1,1 +1,1 @@
-# https://halter73.github.io/aspnetcore-security-docs/
+# https://halter73.github.io/aspnetcore-security-docs/docs
