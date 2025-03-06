@@ -1,4 +1,21 @@
-- name: Introduction
-  href: introduction.md
-- name: Getting Started
-  href: getting-started.md
+- name: Overview
+  href: index.md
+- name: Authentication
+  items:
+  - name: Overview
+    href: authentication/index.md
+  - name: Configure cookie authentication
+    href: authentication/cookie.md
+  - name: Configure social authentication
+    href: authentication/social/social-without-identity.md
+  - name: Configure OIDC web authentication
+    href: authentication/configure-oidc-web-authentication.md
+  - name: Configure JWT bearer authentication
+    href: authentication/configure-jwt-bearer-authentication.md
+  - name: Policy schemes
+    href: authentication/policyschemes.md
+  - name: Manage JWTs in development
+    displayName: jwt, JSON WEB Token
+    href: authentication/jwt.md
+  - name: Map, customize, and transform claims
+    href: authentication/claims.md
