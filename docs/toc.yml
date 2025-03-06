@@ -59,3 +59,97 @@
     href: identity/identity-enable-qrcodes.md
   - name: Two-factor authentication with SMS
     href: identity/2fa.md
+- name: Advanced
+  items:
+  - name: Data protection
+    displayName: encryption
+    items:
+      - name: Overview
+        href: advanced/data-protection/introduction.md
+      - name: Data protection APIs
+        href: advanced/data-protection/using-data-protection.md
+      - name: Consumer APIs
+        items:
+          - name: Overview
+            href: advanced/data-protection/consumer-apis/overview.md
+          - name: Purpose strings
+            href: advanced/data-protection/consumer-apis/purpose-strings.md
+          - name: Purpose hierarchy and multi-tenancy
+            href: advanced/data-protection/consumer-apis/purpose-strings-multitenancy.md
+          - name: Hash passwords
+            href: advanced/data-protection/consumer-apis/password-hashing.md
+          - name: Limit the lifetime of protected payloads
+            href: advanced/data-protection/consumer-apis/limited-lifetime-payloads.md
+          - name: Unprotect payloads whose keys have been revoked
+            href: advanced/data-protection/consumer-apis/dangerous-unprotect.md
+      - name: Configuration
+        items:
+          - name: Overview
+            href: advanced/data-protection/configuration/index.md
+          - name: Configure data protection
+            href: advanced/data-protection/configuration/overview.md
+          - name: Default settings
+            href: advanced/data-protection/configuration/default-settings.md
+          - name: Machine-wide policy
+            href: advanced/data-protection/configuration/machine-wide-policy.md
+          - name: Non-DI aware scenarios
+            href: advanced/data-protection/configuration/non-di-scenarios.md
+      - name: Extensibility APIs
+        items:
+          - name: Overview
+            href: advanced/data-protection/extensibility/index.md
+          - name: Core cryptography extensibility
+            href: advanced/data-protection/extensibility/core-crypto.md
+          - name: Key management extensibility
+            href: advanced/data-protection/extensibility/key-management.md
+          - name: Miscellaneous APIs
+            href: advanced/data-protection/extensibility/misc-apis.md
+      - name: Implementation
+        items:
+          - name: Overview
+            href: advanced/data-protection/implementation/index.md
+          - name: Authenticated encryption details
+            href: advanced/data-protection/implementation/authenticated-encryption-details.md
+          - name: Subkey derivation and authenticated encryption
+            href: advanced/data-protection/implementation/subkeyderivation.md
+          - name: Context headers
+            href: advanced/data-protection/implementation/context-headers.md
+          - name: Key management
+            href: advanced/data-protection/implementation/key-management.md
+          - name: Key storage providers
+            href: advanced/data-protection/implementation/key-storage-providers.md
+          - name: Key encryption at rest
+            href: advanced/data-protection/implementation/key-encryption-at-rest.md
+          - name: Key immutability and settings
+            href: advanced/data-protection/implementation/key-immutability.md
+          - name: Key storage format
+            href: advanced/data-protection/implementation/key-storage-format.md
+          - name: Ephemeral data protection providers
+            href: advanced/data-protection/implementation/key-storage-ephemeral.md
+      - name: Compatibility
+        items:
+          - name: Overview
+            href: advanced/data-protection/compatibility/index.md
+          - name: Replace machineKey in ASP.NET
+            href: advanced/data-protection/compatibility/replacing-machinekey.md
+  - name: Secrets management
+    items:
+      - name: Protect secrets in development
+        displayName: password, connection string, API key
+        href: advanced/app-secrets.md
+      - name: Manage JWTs in development
+        displayName: jwt, JSON WEB Token
+        href: advanced/authentication/jwt.md
+      - name: Azure Key Vault Configuration Provider
+        displayName: password, connection string, API key, secrets
+        href: advanced/key-vault-configuration.md
+  - name: Enforce HTTPS
+    href: advanced/enforcing-ssl.md
+  - name: Prevent Cross-Site Request Forgery (XSRF/CSRF) attacks
+    href: advanced/anti-request-forgery.md
+  - name: Prevent Cross-Site Scripting (XSS)
+    href: advanced/cross-site-scripting.md
+  - name: Enable Cross-Origin Requests (CORS)
+    href: advanced/cors.md
+  - name: Share cookies among apps
+    href: advanced/cookie-sharing.md
