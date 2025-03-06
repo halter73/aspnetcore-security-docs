@@ -19,3 +19,21 @@
     href: authentication/jwt.md
   - name: Map, customize, and transform claims
     href: authentication/claims.md
+- name: Authorization
+  items:
+  - name: Overview
+    href: authorization/introduction.md
+  - name: Simple authorization
+    href: authorization/simple.md
+  - name: Claims-based authorization
+    href: authorization/claims.md
+  - name: Policy-based authorization
+    href: authorization/policies.md
+  - name: Role-based authorization
+    href: authorization/roles.md
+  - name: Parameterize authorization requirements
+    href: authorization/iard.md
+  - name: Customize the behavior of AuthorizationMiddleware
+    href: authorization/authorizationmiddlewareresulthandler.md
+  - name: Limit authorization by authentication scheme
+    href: authorization/limitingidentitybyscheme.md
